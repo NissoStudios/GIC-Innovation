@@ -1,0 +1,12 @@
+[project]
+name = "gic-innovation-gestion-agricole"
+version = "0.2.0"
+description = "Application agricole hors connexion adaptée à la Haute-Sanaga"
+requires-python = ">=3.11"
+authors = [
+    { name = "Famille Blang" }
+]
+
+[project.scripts]
+gic-agri = "app:main"
+
